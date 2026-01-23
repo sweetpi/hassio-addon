@@ -1,6 +1,6 @@
 {
     "name": "evcc",
-    "version": "0.114.1",
+    "version": "0.300.5",
     "slug": "evcc",
     "description": "EV Charge Controller!",
     "url": "https://github.com/evcc-io/evcc",
@@ -14,7 +14,7 @@
     "ingress": true,
     "ingress_port": 7070,
     "init": false,
-    "image": "h3llfire/evcc",
+    "image": "h3llfire/evcc:0.300.5",
     "options": {
         "config_file": "/config/evcc.yaml",
         "sqlite_file": "/data/evcc.db"
